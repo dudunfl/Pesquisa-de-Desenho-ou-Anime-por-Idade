@@ -5,19 +5,28 @@
     }
     
     body {
-        background-image: linear-gradient(90deg, white, );
-        font-size: 20px;
+        background-image: linear-gradient(to right, white, #A67D65);
+        font: normal 15pt Arial;
+        height: 600px;
+    }
+    
+    main {
+        background-color: #830318;
+        box-shadow: 3px 3px 15px #000000;
+        width: 600px;
+        padding: 25px;
+        margin: auto;
     }
     
     header {
-        color: #D93636;
+        color: #EFEFEF;
     }
     
     section {
-        color: #D93636;
+        color: #EFEFEF;
     }
     
     footer {
-        color: #D93636;
+        color: #EFEFEF;
         font-style: italic;
     }

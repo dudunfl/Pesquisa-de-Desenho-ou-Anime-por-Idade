@@ -13,24 +13,35 @@
 <body>
     <main>
         <header>
-            <h1>Procurar Anime | Desenho por Idade</h1>
+            <h1>Procurar Anime ou Desenho por Idade</h1>
         </header>
 
         <section>
             <div>
-                A mensagem vai Aparecer Aqui ...
+                <p>Ano de Nascimento:</p>
+                <input type="number" name="txtano" id="txtano" min="0">
+                <p>Sexo:
+                    <input type="radio" name="radsex" id="masc" checked>
+                    <label for="masc">Masculino</label>
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminino</label>
+                </p>
+                <p>
+                    <input type="button" value="Search" onclick="verificar()">
+                </p>
+
+
             </div>
 
-            <div>
-
-
+            <div id="res">
+                Digite Seu Ano de Nascimento Para ver o Resultado!
             </div>
         </section>
 
         <footer>
             <p>&copy;Entertainment</p>
 
-            <script src="mystyle.js"></script>
+            <script src="mystyle.js "></script>
         </footer>
 
     </main>
