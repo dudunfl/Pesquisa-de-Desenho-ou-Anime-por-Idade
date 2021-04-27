@@ -32,6 +32,6 @@ function verificar() {
                 //idoso
             }
         }
-        res.innerHTML = `Detectamos${genero} com ${idade} Anos seu Anime ou Desenho Preferido é:`
+        res.innerHTML = `Detectamos ${genero} com ${idade} Anos! e seu Anime ou Desenho Preferido é:`
     }
 }
