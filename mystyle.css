@@ -20,13 +20,16 @@
     
     header {
         color: #EFEFEF;
+        text-shadow: 3px 3px 6px black;
     }
     
     section {
         color: #EFEFEF;
+        text-shadow: 3px 3px 6px black;
     }
     
     footer {
         color: #EFEFEF;
         font-style: italic;
+        text-shadow: 3px 3px 6px black;
     }
