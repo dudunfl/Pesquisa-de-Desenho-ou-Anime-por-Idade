@@ -21,7 +21,7 @@ function verificar() {
                 img.setAttribute('src', 'naruto.png')
             } else if (idade < 60) {
                 //adulto
-                img.setAttribute('src', 'bleach3.png')
+                img.setAttribute('src', 'bleach4.png')
             } else {
                 //idoso
                 img.setAttribute('src', 'cavdozodiaco.png')
